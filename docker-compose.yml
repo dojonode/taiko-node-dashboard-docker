@@ -1,4 +1,4 @@
-version: "3.4"
+version: "3.9"
 x-logging:
   &logging
   logging:
@@ -155,6 +155,8 @@ services:
 
   taiko-node-dashboard:
     image: wolfderechter/taiko-node-dashboard:latest
+    env_file:
+      - .env
     ports:
       - "8082:80"
   taiko-node-systeminfo:
