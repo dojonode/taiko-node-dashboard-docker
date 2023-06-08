@@ -1,4 +1,6 @@
-# simple-taiko-node + dashboard
+# Taiko node dashboard using docker
+
+### Taiko node + dashboard
 
 Quickly get started and spin up the taiko node + dashboard to monitor the node with these steps:
 
@@ -11,6 +13,8 @@ Quickly get started and spin up the taiko node + dashboard to monitor the node w
 
 1. In the .env file make sure to change the `VITE_ENABLE_PROVER`, `VITE_ENABLE_PROPOSER` and `VITE_L1_PRIVATE_KEY` variables
 
+<br/>
+
 ### Dashboard only
 
 If you are already running the node and want to only spin up the taiko node dashboard follow these steps:
@@ -22,3 +26,12 @@ If you are already running the node and want to only spin up the taiko node dash
 **Provers and proposers**
 
 4. Set the node address in the settings
+
+#### Notes
+
+- If you are already running the node, you'll need to install one of the following extensions
+    - [firefox extension](https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/)
+    - [chrome extension](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf)
+    - Safari doesn't have an extension but you can do: Safari -> Preferences -> Advanced.
+    At the bottom tick `Show Develop Menu` in menu bar, then in the Develop Menu tick `Disable Cross-Origin Restrictions`.
+    - Or you can simply re-install using [this guide](https://github.com/wolfderechter/taiko-node-dashboard-docker/tree/main#taiko-node+dashboard)
