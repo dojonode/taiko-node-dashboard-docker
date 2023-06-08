@@ -34,4 +34,4 @@ If you are already running the node and want to only spin up the taiko node dash
     - [chrome extension](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf)
     - Safari doesn't have an extension but you can do: Safari -> Preferences -> Advanced.
     At the bottom tick `Show Develop Menu` in menu bar, then in the Develop Menu tick `Disable Cross-Origin Restrictions`.
-    - Or you can simply re-install using [this guide](https://github.com/wolfderechter/taiko-node-dashboard-docker/tree/main#taiko-node+dashboard)
+    - Or you can simply re-install using [this guide](https://github.com/wolfderechter/taiko-node-dashboard-docker#taiko-node--dashboard)
