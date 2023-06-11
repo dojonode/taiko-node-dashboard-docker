@@ -8,7 +8,7 @@ Spin up the taiko node dashboard to monitor the node with these steps:
 
 **Provers and proposers**
 
-4. Set the node address in the settings
+4. Fill in the node address in the settings
 
 #### Notes
 
