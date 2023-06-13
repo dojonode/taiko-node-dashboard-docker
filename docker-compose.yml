@@ -167,7 +167,7 @@ services:
     env_file:
       - .env
     ports:
-      - "8082:80"
+      - "7744:80"
   taiko-node-systeminfo:
     image: wolfderechter/taiko-node-systeminfo:latest
     ports:

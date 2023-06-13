@@ -7,7 +7,7 @@ Quickly get started and spin up the taiko node + dashboard to monitor the node w
 1. `git clone https://github.com/wolfderechter/taiko-node-dashboard-docker`
 2. `cp .env.sample .env` and fill out `L1_ENDPOINT_HTTP` and `L1_ENDPOINT_WS`
 3. `docker compose up`
-4. visit localhost:8082 to access the dashboard
+4. visit localhost:7744 to access the dashboard
 
 **Proposers and provers**
 
@@ -22,7 +22,7 @@ If you are already running the node and want to only spin up the taiko node dash
 
 1. `git clone --single-branch --branch dashboard-only https://github.com/wolfderechter/taiko-node-dashboard-docker`
 2. `docker compose up`
-3. visit localhost:8082 to access the dashboard
+3. visit localhost:7744 to access the dashboard
 
 **Provers and proposers**
 
