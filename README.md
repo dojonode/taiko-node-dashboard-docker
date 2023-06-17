@@ -34,7 +34,7 @@ If you are already running the node and want to only spin up the taiko node dash
 
 4. Fill in the node address in the settings
 
-#### Notes
+#### Important Note
 
 - If you are already running the node, you'll need to install one of the following extensions
     - [firefox extension](https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/)
