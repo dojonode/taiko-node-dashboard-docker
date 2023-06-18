@@ -10,7 +10,7 @@ Spin up the taiko node dashboard to monitor the node with these steps:
 
 4. Fill in the node address in the settings
 
-#### Notes
+#### Important Note
 
 - If you are already running the node, you'll need to install one of the following
     - [firefox extension](https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/)
