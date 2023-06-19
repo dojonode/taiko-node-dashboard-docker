@@ -33,12 +33,3 @@ If you are already running the node and want to only spin up the taiko node dash
 **Provers and proposers**
 
 4. Fill in the node address in the settings
-
-#### Important Note
-
-- If you are already running the node, you'll need to install one of the following extensions
-    - [firefox extension](https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/)
-    - [chrome extension](https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino)
-    - Safari doesn't have an extension but you can do: Safari -> Preferences -> Advanced.
-    At the bottom tick `Show Develop Menu` in menu bar, then in the Develop Menu tick `Disable Cross-Origin Restrictions`.
-    - Or you can simply re-install using [this guide](https://github.com/wolfderechter/taiko-node-dashboard-docker#taiko-node--dashboard)

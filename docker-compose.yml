@@ -54,6 +54,8 @@ services:
       - "0.0.0.0"
       - --ws.origins
       - "*"
+      - --http.corsdomain
+      - "localhost"
     <<: *logging
 
   taiko_client_driver:
