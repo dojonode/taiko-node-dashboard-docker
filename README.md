@@ -13,7 +13,7 @@ Quickly get started and spin up the taiko node + dashboard to monitor the node w
 **Proposers and provers**
 
 5. In the .env file make sure to change the `VITE_ENABLE_PROVER` and `VITE_ENABLE_PROPOSER` variables
-6. Fill in the node address in the settings
+6. Fill in the ethereum address(es) used for the node in the settings to view all the metrics
 
 <br/>
 
@@ -32,4 +32,4 @@ If you are already running the node and want to only spin up the taiko node dash
 
 **Provers and proposers**
 
-4. Fill in the node address in the settings
+4. Fill in the ethereum address(es) used for the node in the settings to view all the metrics
