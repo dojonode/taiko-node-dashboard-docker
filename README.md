@@ -12,7 +12,7 @@ Quickly get started and spin up the taiko node + dashboard to monitor the node w
 
 **Proposers and provers**
 
-5. In the .env file make sure to change the `VITE_ENABLE_PROVER` and `VITE_ENABLE_PROPOSER` variables
+5. In the .env file make sure to fill in the `VITE_ENABLE_PROVER`, `VITE_ENABLE_PROPOSER`, `L1_PROVER_PRIVATE_KEY`, `L1_PROPOSER_PRIVATE_KEY` and `L2_SUGGESTED_FEE_RECIPIENT` variables
 6. Fill in the ethereum address(es) used for the node in the settings to view all the metrics
 
 <br/>
