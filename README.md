@@ -1,5 +1,7 @@
 # Taiko node dashboard using docker
 
+> *_⚠️ NOTE:_*  currently only supports L2 nodes
+
 ### Taiko node + dashboard
 
 Quickly get started and spin up the taiko node + dashboard to monitor the node with these steps:
