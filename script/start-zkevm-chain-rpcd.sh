@@ -2,14 +2,16 @@
 
 set -eou pipefail
 
-if [ "$VITE_ENABLE_PROVER" == "true" ]; then
+if [ "$ENABLE_PROVER" == "true" ]; then
     mkdir -p /data
 
-    if [ ! -f "/data/19.bin" ];then
-        wget https://storage.googleapis.com/zkevm-circuits-keys/19.bin -P /data
+    if [ ! -f "/data/kzg_bn254_22.srs" ];then
+        wget https://storage.googleapis.com/zkevm-circuits-keys/kzg_bn254_22.srs -P /data
     fi
 
-    /prover_rpcd --bind 0.0.0.0:${PORT_ZKEVM_CHAIN_PROVER_RPCD}
+    /prover_rpcd \
+        --bind 0.0.0.0:9000 \
+        --lookup zkevm_chain_prover_rpcd:9000
 else
     sleep infinity
 fi
