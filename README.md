@@ -14,7 +14,6 @@ If you are already running the node and want to only spin up the taiko node dash
 
 6. Fill in the ethereum address(es) used for the node in the settings (⚙️ button) to view all the metrics
 
-
 ### Integrate the dashboard into the node
 
 Append the following code snippet to the `docker-compose.yml` of the taiko node to combine the two applications.
@@ -28,5 +27,4 @@ Append the following code snippet to the `docker-compose.yml` of the taiko node 
         image: wolfderechter/taiko-node-systeminfo:latest
         ports:
           - "3009:3009"
-
    ```
