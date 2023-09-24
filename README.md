@@ -1,4 +1,5 @@
 # Taiko node dashboard using docker
+This repository is a dockerized version of the [taiko-node-dashboard](https://github.com/wolfderechter/taiko-node-dashboard).
 
 ### Dashboard only
 
