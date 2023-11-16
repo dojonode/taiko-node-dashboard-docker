@@ -13,7 +13,7 @@ If you are already running the node and want to only spin up the taiko node dash
 2. `cd taiko-node-dashboard-docker`
 3. `docker compose up`
 4. visit http://localhost:7744 to access the dashboard
-5. Click on the 📡 button and change localhost to the IP address of the node's machine.
+5. click on the 📡 button and change localhost to the IP address of the node's machine
 
 **Provers and proposers**
 
