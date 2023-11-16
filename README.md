@@ -1,19 +1,19 @@
 # Taiko node dashboard using docker
 ![Docker Pulls](https://img.shields.io/docker/pulls/wolfderechter/taiko-node-dashboard)
 
-This repository is a dockerized version of the [taiko-node-dashboard](https://github.com/wolfderechter/taiko-node-dashboard).
+This repository is a dockerized version of the [taiko-node-dashboard](https://github.com/dojonode/taiko-node-dashboard).
 
-![Cover_Image](https://github.com/wolfderechter/taiko-node-dashboard/assets/60930264/8a18073f-848c-421f-9e81-4aae5482737e)
+![Cover_Image](https://github.com/dojonode/taiko-node-dashboard/assets/60930264/8a18073f-848c-421f-9e81-4aae5482737e)
 
 ### Dashboard only
 
 If you are already running the node and want to only spin up the taiko node dashboard follow these steps:
 
-1. `git clone https://github.com/wolfderechter/taiko-node-dashboard-docker`
+1. `git clone https://github.com/dojonode/taiko-node-dashboard-docker`
 2. `cd taiko-node-dashboard-docker`
 3. `docker compose up`
 4. visit http://localhost:7744 to access the dashboard
-5. *_⚠️ NOTE:_*  you might need to change the IP address in the connections (📡 button) to the IP address of your VPS.
+5. Click on the 📡 button and change localhost to the IP address of the node's machine.
 
 **Provers and proposers**
 
