@@ -29,7 +29,7 @@ Append the following code snippet to the `docker-compose.yml` of the taiko node 
      ports:
        - "7744:80"
   taiko-node-systeminfo:
-     image: wolfderechter/taiko-node-systeminfo:latest
+     image: wolfderechter/dojonode-systeminformation:latest
      ports:
        - "3009:3009"
    ```
